@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #080707;
+  color: #af9d9d;
+  font-size: 14px;
+  margin: 10px;
+  
+}
+h1, h3{
+  color: #3dc280;
+}
+h1{
+  font-size: 28px;
+}
+hr{
+  background-color: black;
+  height: 1px;
+  border: none;
+}
+header .container {
+  width: 1,024px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 64px; 0px;
+  border-bottom: 1px;
+  margin: 0px; 128px;  
+}
+
+header .container p {
+  position: relative;
+  padding-right: 32px;
+}
+  
+
+header .container ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  position: relative;
+}
+
+header .container .search {
+  width: 20px;
+  height: 20px;
+  background-color: whitesmoke;
+  padding-left: 168px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 24px;
+  margin-right: 64px;
+}
+
+header .container .media li {
+  background-color: black;
+  color: fill#12F7D6;
+  width: Hug (20px);
+  height: Hug (20px);
+  list-style: none;
+  margin-left: 32px;
+}
+  
+
+.info span{
+  display: inline-block;
+}
+
+.first {
+  margin-top: 16px; 128px;
+  width: Fixed (1,920px);
+  height: Hug (32px);
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #43454D;
+  padding: 0px; 128px;
+  align-items: baseline;
+}
+
+
+.middle {
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #43454D;
+  width: Fixed (768px);
+  height: Hug (116px);
+  margin: 64px; 0px;
+  padding: 0px; 128px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: Fixed (768px);
+  height: Hug (158px);
+  border-top: 1px solid #43454D;
+  padding: 0px; 24px;
+  margin: 64px; 0px;
+}
+
+footer {
+  font-family: ubuntu;
+  font-size: 16px;
+  background-color: black;
+  color: #fffff;
+}
+
+footer a {
+  color: #12F7D6;
+}
+
+footer a:hover {
+  background-color: grey;
+}
+
+footer .head {
+  display: flex;
+  justify-content: center;
+  border: 3px;
+  width: Hug (195px);
+  height: Hug (72px);
+  padding:  8px; 32px;
+  margin: 128px; 0px;
+  background-color: #43454D;
+  border-radius: 48px;
+  position: relative;
+}
+
+.first ul, .middle ul, .last ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  position: relative;
+}
+.first ul li, .middle ul li, .last ul li {
+  margin: 8px;
+}
+
+.first .container, .middle .container, .last .container {
+  position: relative;
+}
+
+footer .media li {
+  background-color: #98FAEC;
+  border-radius: 48px; 
+}
