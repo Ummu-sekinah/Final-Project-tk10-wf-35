@@ -86,11 +86,11 @@ header .container .media li {
 .middle {
   display: flex;
   justify-content: center;
-flex-direction: column;
+  flex-direction: column;
   align-items: center;
   border-top: 1px solid #43454D;
   width: Fixed (768px);
-  height: Hug (116px);
+  height: Hug (140px);
   margin: 64px; 0px;
   padding: 0px; 128px;
 }
@@ -153,3 +153,8 @@ footer .media li {
   background-color: #98FAEC;
   border-radius: 48px; 
 }
+
+.middle .container ul {
+  display: inline;
+}
+                    
